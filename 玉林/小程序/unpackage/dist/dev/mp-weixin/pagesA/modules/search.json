@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "公积金明细查询",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-calendar": "/uview-ui/components/u-calendar/u-calendar",
+    "u-button": "/uview-ui/components/u-button/u-button"
+  }
+}

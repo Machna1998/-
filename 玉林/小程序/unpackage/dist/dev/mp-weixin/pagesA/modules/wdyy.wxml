@@ -1,0 +1,1 @@
+<view class="wdyy"><u-cell-group vue-id="256a7086-1" bind:__l="__l" vue-slots="{{['default']}}"><u-cell-item vue-id="{{('256a7086-2')+','+('256a7086-1')}}" title="个人设置" data-event-opts="{{[['^click',[['pd']]]]}}" bind:click="__e" bind:__l="__l"></u-cell-item></u-cell-group></view>

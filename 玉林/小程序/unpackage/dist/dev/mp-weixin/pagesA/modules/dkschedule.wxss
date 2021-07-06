@@ -1,0 +1,75 @@
+
+._p{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	background-color: #007AFF;
+	color: #fff;
+	height: 40px;
+	font-size: 15px;
+	padding: 0 10px;
+}
+/* 进度条 */
+._ul{
+		width: 100%;
+		padding: 0;
+}
+._li{
+	width: 100%;
+	list-style: none;
+	height: 40px;
+	line-height: 40px;
+	/* background-color: #18B566; */
+	font-size: 13px;
+}
+._li .left{
+	width: 40%;
+	float: left;
+	/* background-color: #108EE9;s */
+	text-align: center;
+}
+._li view{
+	position: relative;
+	width: 60%;
+	float: right;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	border-left: 2px solid #C0C0C0;
+	/* background-color: #4CD964;/ */
+	padding: 0 10px;
+}
+._li ._span{
+	position: absolute;
+	left: -5px;
+	width: 5px;
+	height: 5px;
+	border: 2px solid #C0C0C0;
+	border-radius: 50%;
+	background-color: #fff;
+}
+/* 通过的颜色 */
+.green{
+	color:rgb(131,210,187) ;
+}
+

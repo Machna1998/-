@@ -1,0 +1,220 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"window": {
+		"navigationStyle": "custom"
+	},
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
+		{
+			"path": "pages/toLogin/toLogin",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}
+	],
+	"subPackages": [{
+			"root": "pagesA",
+			"pages": [{
+				"path": "service/service",
+				"style": {
+					"navigationBarTitleText": "首页",
+					"enablePullDownRefresh": false
+				},
+				"app-plus":{
+				"titleNView":{
+				"autoBackButton":false
+				}
+				}
+			}]
+			
+		},
+		{
+			"root": "pagesA",
+			"pages": [{
+				"path": "modules/basic",
+				"style": {
+					"navigationBarTitleText": "公积金基本信息查询",
+					"enablePullDownRefresh": false
+				}
+			}]
+		},
+		{
+			"root": "pagesA",
+			"pages": [{
+				"path": "modules/search",
+				"style": {
+					"navigationBarTitleText": "公积金明细查询",
+					"enablePullDownRefresh": false
+				}
+			}]
+		},
+		{
+			"root": "pagesA",
+			"pages": [{
+				"path": "modules/change",
+				"style": {
+					"navigationBarTitleText": "个人基本信息变更",
+					"enablePullDownRefresh": false
+				}
+			}]
+		},
+		{
+			"root": "pagesA",
+			"pages": [{
+				"path": "modules/loans",
+				"style": {
+					// 提取业务
+					"navigationBarTitleText": "租房提取",
+					"enablePullDownRefresh": false
+				}
+			}]
+		},
+		{
+			"root": "pagesA",
+			"pages": [{
+				"path": "modules/nextStep",
+				"style": {
+					// 下一步
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+			}]
+		},
+		// 购房提取
+		{
+			"root": "pagesA",
+			"pages": [{
+				"path": "modules/gtfqnext",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+			}]
+		},
+		// 离职，退休提取
+		{
+			"root": "pagesA",
+			"pages": [{
+				"path": "modules/TQ-tuixiu",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+			}]
+		},
+		{
+			"root": "pagesA",
+			"pages": [{
+				"path": "modules/card",
+				"style": {
+					"navigationBarTitleText": "银行卡的绑定与解绑",
+					"enablePullDownRefresh": false
+				}
+			}]
+		},
+		{
+			"root": "pagesA",
+			"pages": [{
+				"path": "modules/refund",
+				"style": {
+					"navigationBarTitleText": "提前还款",
+					"enablePullDownRefresh": false
+				}
+			}]
+		},
+		{
+			"root": "pagesA",
+			"pages": [{
+				"path": "modules/repay",
+				"style": {
+					"navigationBarTitleText": "公积金冲还贷签约/撤销",
+					"enablePullDownRefresh": false
+				}
+			}]
+		},
+		{
+			"root": "pagesA",
+			"pages": [{
+				"path": "modules/loansSearch",
+				"style": {
+					"navigationBarTitleText": "贷款基本信息查询",
+					"enablePullDownRefresh": false
+				}
+			}]
+		},
+		{
+			"root": "pagesA",
+			"pages": [{
+				"path": "modules/hkdetail",
+				"style": {
+					"navigationBarTitleText": "还款明细查询",
+					"enablePullDownRefresh": false
+				}
+			}]
+		},
+		{
+			"root": "pagesA",
+			"pages": [{
+				"path": "modules/dkschedule",
+				"style": {
+					"navigationBarTitleText": "贷款进度查询",
+					"enablePullDownRefresh": false
+				}
+			}]
+		},
+		{
+			"root": "pagesA",
+			"pages": [{
+				"path": "modules/declare",
+				"style": {
+					"navigationBarTitleText": "申报业务查询",
+					"enablePullDownRefresh": false
+				}
+			}]
+		},
+		{
+			"root": "pagesA",
+			"pages": [{
+				"path": "modules/wdyy",
+				"style": {
+					"navigationBarTitleText": "网点预约情况查询",
+					"enablePullDownRefresh": false
+				}
+			}]
+		},
+		{
+			"root": "pagesA",
+			"pages": [{
+				"path": "modules/paidui",
+				"style": {
+					"navigationBarTitleText": "排队查询",
+					"enablePullDownRefresh": false
+				}
+			}]
+		},
+		{
+			"root": "pagesA",
+			"pages": [{
+				"path": "modules/zxyy",
+				"style": {
+					"navigationBarTitleText": "在线预约",
+					"enablePullDownRefresh": false
+				}
+			}]
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+
+
+}

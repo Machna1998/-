@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/toLogin/toLogin"
+  ],
+  "subPackages": [
+    {
+      "root": "pagesA",
+      "pages": [
+        "service/service",
+        "modules/basic",
+        "modules/search",
+        "modules/change",
+        "modules/loans",
+        "modules/nextStep",
+        "modules/gtfqnext",
+        "modules/TQ-tuixiu",
+        "modules/card",
+        "modules/refund",
+        "modules/repay",
+        "modules/loansSearch",
+        "modules/hkdetail",
+        "modules/dkschedule",
+        "modules/declare",
+        "modules/wdyy",
+        "modules/paidui",
+        "modules/zxyy"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "permission": {},
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,46 @@
+
+.top{
+	width: 100%;
+	height: 150px;
+	background-image: -webkit-linear-gradient(315deg,rgb(232,112,98) 0%, rgb(230,94,79) 100%);
+	background-image: linear-gradient(135deg,rgb(232,112,98) 0%, rgb(230,94,79) 100%);
+	padding: 5px 15px;
+	margin-bottom: 10px;
+}
+.name{
+		color: #fff;
+		font-size: 17px;
+		font-weight:500;
+}
+		
+	/* 余额 */
+.balance{
+		margin-top: 10px;
+		width: 100%;
+		height: 100px;
+		background-color: #FFFFFF;
+		border-radius: 20px;
+		color: rgb(232,112,98);
+		padding: 15px 10px;
+}
+.balance .yuer{
+		width: 100%;
+		font-size: 12px;
+		/* transform:scale(0.5); */
+		display: block;
+		margin-bottom:5px;
+		color: #000000;
+}
+.balance ._p text{
+		display: inline-block;
+		margin-right: 5px;
+		font-size: 24px
+}
+.balance .detail{
+		float: right;
+}
+.btn{
+		width: 80%;
+		margin-top: 10px;
+}
+
